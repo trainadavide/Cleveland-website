@@ -1,0 +1,58 @@
+.dropdown-menu{
+    background-color: whitesmoke;
+}
+.dropdown-toggle{
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 10%;
+}
+.dropdown-toggle:hover{
+    color: whitesmoke;
+}
+.dropdown-item{
+    color: black;
+}
+.dropdown-item:hover{
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.btn{
+    background-color: whitesmoke;
+    color: black;
+    border-color: black;
+    border-radius: 0;
+}
+.btn:hover{
+    background-color: whitesmoke;
+    color: black;
+    border-color: black;
+}
+.dropdown-text{
+    font-weight: bold;
+}
+.dropdown-text:hover{
+    text-decoration: none;
+}
+.custom-input{
+    background-color: whitesmoke;
+    color: black;
+    border-color: black;
+    border-radius: 0;
+    margin-top: 5%;
+}
+.custom-submit{
+    background-color: black;
+    color: whitesmoke;
+    border-color: black;
+    border-radius: 0;
+    margin-top: 5%;
+}
+.custom-submit:hover{
+    background-color: dimgrey;
+    color: whitesmoke;
+    border-color: black;
+    border-radius: 0;
+    margin-top: 5%;
+}
