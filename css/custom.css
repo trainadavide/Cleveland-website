@@ -56,3 +56,83 @@
     border-radius: 0;
     margin-top: 5%;
 }
+.subscribe{
+    border: 1px solid;
+    border-color: whitesmoke;
+    border-radius: 0;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-right: 10%;
+    color: whitesmoke;
+}
+.subscribe:hover{
+    color:whitesmoke;
+}
+.subscribe:after{
+    color: whitesmoke;
+}
+.subscribe:not(:hover){
+    color: whitesmoke;
+}
+.custom-left{
+    margin-right: 7%;
+}
+.appear{
+    display: none;
+}
+@media (max-width: 768px){
+    .disappear{
+        display: none;
+    }
+    .appear{
+        display: block;
+        margin-left: 10%;
+    }
+}
+.nav-button{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 0;
+    margin-right: 9%;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.nav-button:hover{
+    border-bottom: #0a53be 2px solid;
+}
+.nav-button:active{
+    border-bottom: #0a53be 2px solid;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.header, .footer {
+    /* Adjust the height as needed */
+    height: 10vh;
+    /* Add any other styles you want for your header and footer */
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    overflow-y: auto;
+    /* Add any other styles you want for your content */
+}
+
+.content .column {
+    flex: 1;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.content .column.middle {
+    flex: 2;
+    overflow-y: auto;
+    margin-left: 3%;
+    margin-right: 3%;
+}
