@@ -186,8 +186,39 @@ ul{
     font-weight: bold;
     text-decoration: none;
 }
+.news-list:hover{
+    color: #777777;
+    font-weight: bold;
+    text-decoration: none;
+}
 .news-time{
     color: gray;
     font-weight: normal;
 }
+.ad-container {
+    width: 300px;
+    height: 250px;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    margin: 0 auto;
+    overflow: hidden;
+}
+.ad-header {
+    background-color: #f5f5f5;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+.ad-content {
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.ad-image {
+    width: 30%;
+    height: 30%;
+}
+
 
