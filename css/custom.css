@@ -124,11 +124,21 @@ body {
     margin-right: 3%;
 }
 
+.content .column.left {
+    border-right: 1px solid #6c757d;
+    padding-right: 2%;
+}
+.content .column.right {
+    border-left: 1px solid #6c757d;
+    padding-left: 2%;
+}
+
 .content .column.middle {
     flex: 2;
     overflow-y: auto;
     margin-left: 3%;
     margin-right: 3%;
+
 }
 .second{
     background-color: #707070;
@@ -148,4 +158,21 @@ body {
         display: none;
     }
 
+}
+
+.card img {
+    max-width: 80%;
+    margin-left: 10%;
+    height: auto;
+}
+
+.news-title{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.card{
+    border: none;
+    border-bottom: #a7acb1 1px solid;
+    border-radius: 0;
 }
