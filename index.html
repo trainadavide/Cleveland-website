@@ -74,9 +74,9 @@
         <nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-center second">
             <div class="btn-group d-flex">
                 <a class="nav-button" href="index.html">Top stories</a>
-                <a class="nav-button" href="index.html">News</a>
-                <a class="nav-button" href="index.html">Sports</a>
-                <a class="nav-button" href="index.html">Life</a>
+                <a class="nav-button" href="index.html#news1">News</a>
+                <a class="nav-button" href="index.html#sport1">Sports</a>
+                <a class="nav-button" href="index.html#life1">Life</a>
             </div>
         </nav>
     </header>
@@ -84,11 +84,27 @@
     <div class="content">
 
         <div class="column left disappear">
-            <h2>Latest news</h2>
+            <h2>Latest</h2>
+            <ul class="grid-container">
+                <i class="news-time grid-item">2h</i>
+                <a href="#sport1" class="grid-item news-list">Bather achieves freediving record unintentionally</a>
+            </ul>
+            <ul class="grid-container">
+                <i class="news-time grid-item">4h</i>
+                <a href="#news1" class="grid-item news-list">A mysterious white cat scares Montefuffa</a>
+            </ul>
+            <ul class="grid-container">
+                <i class="news-time grid-item">6h</i>
+                <a href="#life1" class="grid-item news-list">Batman was seen at the Neccio festival in Pieve a Nievole</a>
+            </ul>
+            <ul class="grid-container">
+                <i class="news-time grid-item">7h</i>
+                <a href="#news2" class="grid-item news-list">Prato Borgonuovo is in danger of being razed to the ground</a>
+            </ul>
         </div>
 
         <div class="column middle">
-            <div class="card">
+            <div class="card" id="news1">
                 <div class="card-body">
                     <img src="media/gatto.jpeg" alt="">
                     <div class="news-title">
@@ -97,6 +113,44 @@
                         <p>In the sleepy heart of picturesque Montefuffa, an unexpected
                             presence has caught the attention and stirred the unease of inhabitants ...</p>
                         <i>4 hours ago           Traina Davide</i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" id="news2">
+                <div class="card-body">
+                    <img src="media/stazione.jpg" alt="">
+                    <div class="news-title">
+                        <i>News</i>
+                        <h4>Prato Borgonuovo is in danger of being razed to the ground</h4>
+                        <p>Borgonuovo may be dismantled, in its place will be built a museum dedicated to Prato's Chinese community.
+                            Enraged citizens have already launched a petition...</p>
+                        <i>7 hours ago           Traina Davide</i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" id="sport1">
+                <div class="card-body">
+                    <img src="media/lido.jpg" alt="">
+                    <div class="news-title">
+                        <i>Sport</i>
+                        <h4>Bather achieves freediving record unintentionally</h4>
+                        <p>What happened in Lido di Camaiore has the unbelievable, a bather has in fact achieved the world record for
+                            freediving by falling asleep in the sea of the Tuscan coastline</p>
+                        <i>2 hours ago           Traina Davide</i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" id="life1">
+                <div class="card-body">
+                    <img src="media/batman.jpg" alt="">
+                    <div class="news-title">
+                        <i>Sport</i>
+                        <h4>Batman was seen at the Neccio festival in Pieve a Nievole.</h4>
+                        <p>The famous vigilante was spotted at the famous neccio festival, on a break from the raids of the metropolis even heroes need to take a break</p>
+                        <i>6 hours ago           Traina Davide</i>
                     </div>
                 </div>
             </div>

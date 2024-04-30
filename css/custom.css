@@ -142,6 +142,7 @@ body {
 }
 .second{
     background-color: #707070;
+    margin-right: 7%;
 }
 
 @media (max-width: 768px){
@@ -176,3 +177,17 @@ body {
     border-bottom: #a7acb1 1px solid;
     border-radius: 0;
 }
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.news-list{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.news-time{
+    color: gray;
+    font-weight: normal;
+}
+
