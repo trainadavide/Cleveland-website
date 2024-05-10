@@ -240,7 +240,7 @@ ul{
 }
 .sticky {
     margin-right: 12%;
-    margin-left: -3.5%;
+    margin-left: 0%;
     position: fixed;
     top: 0;
     width: 100%;
@@ -296,6 +296,13 @@ ul{
 }
 .footer__disclaimer-logo-image{
     margin-left: -15%;
+}
+.side-news{
+    font-family: Inter, Arial, sans-serif;
+    font-weight: bold;
+}
+.side{
+    margin-left: 0%;
 }
 
 
