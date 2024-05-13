@@ -155,7 +155,7 @@ body::-webkit-scrollbar {
     height: 10vh;
 }
 
-@media (max-width: 768px){
+@media (max-width: 900px){
     .disappear{
         display: none;
     }
@@ -163,8 +163,11 @@ body::-webkit-scrollbar {
         display: block;
         margin-left: 10%;
     }
+    .news-image{
+        width:100%;
+    }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     .disappear-first{
         display: none;
     }
